@@ -1,0 +1,73 @@
+:root {
+    --color-primary: F7BFD2;
+    --color-secondary: 692126;
+    font-family: 'Capriola', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#title-landing-page{
+    color: #692126;
+    text-align: center;
+    font-family: Capriola;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+#parrafo-landing-page{
+    color: #692126;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;                                                                                
+}
+
+body{
+    background: #F7BFD2; 
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #692126;
+    border-radius: 20px;
+    border: none;
+    color: #F7BFD2;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 40px 45px;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px 0px rgba(105, 26, 31, 0.50);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #962f36;
+  }
+
+#landing-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#landing-logo img{
+    width: 200px;
+    height: 200px;
+}
