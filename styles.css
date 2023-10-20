@@ -3,6 +3,7 @@
     --color-secondary: 692126;
     font-family: 'Capriola', sans-serif;
     font-family: 'Nunito', sans-serif;
+    color: #692126;
 }
 
 
@@ -28,7 +29,7 @@
     line-height: normal;                                                                                
 }
 
-body{
+#landing-page{
     background: #F7BFD2; 
 }
 
@@ -78,6 +79,15 @@ button:hover {
 
 /* Estilos del home*/
 
+#parrafo-header{
+  text-align: center;
+  background-color:#F7BFD2;
+  width: 100%;
+  height: 64px;
+}
+
+
+
 /* dropdown menu*/
 nav{
     background: #F5F5F5;
@@ -86,7 +96,6 @@ nav{
     position: relative;
     display: flex;
     justify-content: center;
-    font-family: 'Nunito', sans-serif;
     font-weight: 700;
 }
 
@@ -117,26 +126,25 @@ nav{
   }
   
   .categorias-nav:hover {
-    background: #f4afef;
+    background: #F7BFD2;
   }
   
-  .categorias-nav:hover a {
-    color: #fff;
+  .categorias-nav:hover a { 
+    color: #b88d8d;
   }
   
   .categorias-nav a {
     display: block;
     padding: 10px 20px;
-    color: #757575;
+    color:#692126;
     text-decoration: none;
   }
   
   .subcategorias-nav {
-    float: none;
     position: relative;
   }
   
-  .subcategorias-nav a {
+  .subcategorias-nav a { 
     padding: 10px 20px;
     color: #fff;
     display: block;
@@ -144,4 +152,15 @@ nav{
   
   .subcategorias-nav a:hover {
     background: #6a2b2b;
+  }
+
+  footer{
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    padding-bottom: 10px ;
+    bottom: 0;
+    background-color: #F7BFD2;
+    width: 100%;
+
   }
