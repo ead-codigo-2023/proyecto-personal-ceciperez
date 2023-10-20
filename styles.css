@@ -6,6 +6,8 @@
 }
 
 
+/* Estilos de la Landing Page*/
+
 #title-landing-page{
     color: #692126;
     text-align: center;
@@ -71,3 +73,75 @@ button:hover {
     width: 200px;
     height: 200px;
 }
+/* Fin de Estilos de la Landing Page*/
+
+
+/* Estilos del home*/
+
+/* dropdown menu*/
+nav{
+    background: #F5F5F5;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.dropdown {
+    display: none;
+    box-shadow: 0px 10px 15px 0px #691a1f80;
+    background: #572f2f;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    list-style: none;
+  }
+  
+  .categorias-nav:hover> ul {
+    display: block;
+  }
+  
+  .menu-nav {
+    background: #F5F5F5;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  .categorias-nav {
+    float: left;
+  }
+  
+  .categorias-nav:hover {
+    background: #f4afef;
+  }
+  
+  .categorias-nav:hover a {
+    color: #fff;
+  }
+  
+  .categorias-nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #757575;
+    text-decoration: none;
+  }
+  
+  .subcategorias-nav {
+    float: none;
+    position: relative;
+  }
+  
+  .subcategorias-nav a {
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+  }
+  
+  .subcategorias-nav a:hover {
+    background: #6a2b2b;
+  }
