@@ -79,11 +79,27 @@ button:hover {
 
 /* Estilos del home*/
 
+header{
+  display: block;
+  position: relative; /* no se que aporta esto*/
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  
+}
+
 #parrafo-header{
-  text-align: center;
-  background-color:#F7BFD2;
-  width: 100%;
+  background-color: #F7BFD2;
   height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  left: 0; 
+  right: 0; 
+  
+  
 }
 
 
@@ -96,7 +112,9 @@ nav{
     position: relative;
     display: flex;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 600;
+    left: 0;
+    right: ;
 }
 
 .dropdown {
@@ -138,6 +156,7 @@ nav{
     padding: 10px 20px;
     color:#692126;
     text-decoration: none;
+    font-size: 24px;
   }
   
   .subcategorias-nav {
@@ -148,6 +167,7 @@ nav{
     padding: 10px 20px;
     color: #fff;
     display: block;
+    font-size: 20px;
   }
   
   .subcategorias-nav a:hover {
@@ -158,9 +178,50 @@ nav{
     text-align: center;
     position: absolute;
     justify-content: center;
-    padding-bottom: 10px ;
+    padding-bottom: 20px ;
     bottom: 0;
     background-color: #F7BFD2;
-    width: 100%;
+    left: 0; /* Add this line */
+    right: 0; 
+    
+  }
+
+  .categorias-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    list-style: none;
+  }
+
+  .categorias-footer li {
+    margin: 0 10px;
+  }
+ 
+  .categorias-footer a {
+    color: #692126;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .logotipocafe{
+    width: 10% ;
+    padding-top: 20px; 
+
+  }
+
+  .redes-sociales-footer{
+    padding-top: 10px;
+  }
+
+  .icon-tiktok:before {
+    content: "\e900";
+    color: #692126;
+
+  }
+
+  .icon-instagram:before {
+    content: "\ea92";
+    color: #692126;
 
   }
