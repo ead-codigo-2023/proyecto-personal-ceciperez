@@ -109,18 +109,27 @@ header{
   
 }
 
-
-
 /* dropdown menu*/
+nav img{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
 nav{
     background: #F5F5F5;
     padding: 0;
     list-style: none;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     font-weight: 600;
     left: 0;
+}
+
+#inuselessbox{
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
 }
 
 .dropdown {
@@ -129,13 +138,13 @@ nav{
     background: #572f2f;
     border-radius: 0px;
     padding: 0;
-    position: absolute;
-    top: 100%;
     list-style: none;
   }
   
   .categorias-nav:hover> ul {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
   }
   
   .menu-nav {
@@ -147,14 +156,11 @@ nav{
   
   .categorias-nav {
     float: left;
-  }
-  
-  .categorias-nav:hover {
-    background: #F7BFD2;
+    padding: 0 30px;
   }
   
   .categorias-nav:hover a { 
-    color: #b88d8d;
+    color: #fca6c3;
   }
   
   .categorias-nav a {
@@ -197,7 +203,13 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 0 10%;
+    padding: 20px;
+    box-sizing: border-box; 
   }
+
+  .content-banner img {
+    margin-right: 20px; 
+}
 
 .productos-home{
     display: grid;
@@ -245,19 +257,15 @@ nav{
     padding-top: 10px;
   }
 
-  .icon-tiktok:before {
-    content: "\e900";
+  .redes-sociales-footer svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
     color: #692126;
-
   }
+    /* Tus estilos aquí */
 
-  .icon-instagram:before {
-    content: "\ea92";
-    color: #692126;
-
-  }
-
-  /* Estilos pagina productos */
+  /* Estilos pagina producto individual */
 
   .producto-nanaideco {
     display: flex;
@@ -273,4 +281,104 @@ nav{
 
   .texto-producto-nanaideco {
     flex: 1;
+  }
+
+   /* Estilos catalogo de productos */
+  .content-banner h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content-banner p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 20px 0;
+}
+
+.product-card a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+}
+
+ /* Estilos FAQ */
+
+ #faq-content{
+ text-align: left;
+  padding: 0 25%;
+ }
+
+ #faq-content p{
+  text-align: left;
+ }
+
+ #faq-content li{
+  padding: 10px ;
+ }
+
+ #faq-content a{
+  text-decoration: none;
+  color: #692126;
+  font-weight: 700;
+ }
+
+  #faq-content a:hover{
+    color: #962f36;
+  }
+
+  /* Estilos sobre-nanai */
+  .aboutus-nanaideco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+  }
+  .aboutus-nanaideco img{
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .texto-izq{
+    display: block;
+    padding: 0 0 0 0;
+    max-width: 40%;
+  }
+
+  .texto-izq h1{
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .texto-izq p{
+    text-align: left;
   }

@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Nunito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4049182f07/UntitledProject/style.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>NanaiDeco</title>
-</head>
-<body>
- <header>
-    <p id="parrafo-header">Recuerda que trabajamos en pedidos personalizados y con stock!</p>
- </header>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Nunito&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4049182f07/UntitledProject/style.css">
+      <link rel="stylesheet" href="styles.css">
+      <title>NanaiDeco</title>
+  </head>
+  <body>
+    <header>
+      <p id="parrafo-header">Recuerda que trabajamos en pedidos personalizados y con stock!</p>
+    </header>
 
-  <nav>
-    <ul class="menu-nav">
-      <li class="categorias-nav"><a href="producto.html">Productos</a>
-        <ul class="dropdown">
-          <li class="subcategorias-nav"><a href="#">Aritos</a></li>
-          <li class="subcategorias-nav"><a href="#">Colgantes</a></li>
-          <li class="subcategorias-nav"><a href="#">Shakers</a></li>
-        </ul>
-      </li>
+    <nav>
+      <a href="index.html">
+        <img src="content\LogoNanaideco2.png" alt="logonanaideco">
+      </a>
+      <div>
+      <ul class="menu-nav">
+        <li class="categorias-nav"><a href="producto.html">Productos</a>
+          <ul class="dropdown">
+            <li class="subcategorias-nav"><a href="aritos.html">Aritos</a></li>
+            <li class="subcategorias-nav"><a href="llaveros.html">Colgantes</a></li>
+            <li class="subcategorias-nav"><a href="shakers.html">Shakers</a></li>
+          </ul>
+        </li>
 
-      <li class="categorias-nav"><a href="categorias.html">¡Personalízame!</a></li>
+        <li class="categorias-nav"><a href="producto.html">¡Personalízame!</a></li>
 
-      <li class="categorias-nav"><a href="preguntas.html">¿Preguntas?</a>
-        <ul class="dropdown">
-            <li class="subcategorias-nav"><a href="#">Métodos de pago</a></li>
-            <li class="subcategorias-nav"><a href="#">Envíos</a></li>
-            <li class="subcategorias-nav"><a href="#">Contacto</a></li>
-            <li class="subcategorias-nav"><a href="#">Sobre NanaiDeco</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+        <li class="categorias-nav"><a href="FAQ.html">¿Preguntas?</a>
+          <ul class="dropdown">
+            <li class="subcategorias-nav"><a href="FAQ.html">FAQ</a></li>
+            <li class="subcategorias-nav"><a href="https://www.instagram.com/nanaideco/">Contacto</a></li>
+            <li class="subcategorias-nav"><a href="sobre-nanai.html">Sobre NanaiDeco</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      <div id="inuselessbox"></div>
+    </nav>
 
     <div class="content-banner">
       <div id="hero-banner">
@@ -56,20 +61,30 @@
 
     <footer>
       <a href="index.html">
-      <img class="logotipocafe" src="content\logotipo-nanaideco-cafe.png" alt="logo" id="logo-footer"><br>
+        <img class="logotipocafe" src="content\logotipo-nanaideco-cafe.png" alt="logo" id="logo-footer"><br>
       </a>
       <ul class="categorias-footer">
-        <li><a href="sobre-nosotros.html">Sobre NanaiDeco</a></li>
+        <li><a>Sobre NanaiDeco</a></li>
         <li><a>¿Cómo Comprar?</a></li>
         <li><a>Envíos</a></li>
       </ul>
         <p>© 2023 NanaiDeco</p>
       <div class="redes-sociales-footer">
-        <a href="https://www.instagram.com/nanaideco/" target="_blank"><span class="icon-instagram"></span></a>
-        <a href="https://www.tiktok.com/@nanaideco" target="_blank"><span class="icon-tiktok"></span></a>
-      </div>  
-      
+        <a href="https://www.instagram.com/nanaideco/" target="_blank">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1024 1024">
+            <g id="icomoon-ignore"></g>
+            <path fill="#692126" d="M534.613 0.853c55.893-0.853 111.36-0.427 166.827-0.853 3.413 65.28 26.88 131.84 74.667 177.92 47.787 47.36 115.2 69.12 180.907 76.373v171.947c-61.44-2.133-123.307-14.933-179.2-41.387-24.32-11.093-46.933-25.173-69.12-39.68-0.427 124.587 0.427 249.173-0.853 373.333-3.413 59.733-23.040 119.040-57.6 168.107-55.893 81.92-152.747 135.253-252.16 136.96-61.013 3.413-122.027-13.227-174.080-43.947-86.187-50.773-146.773-143.787-155.733-243.627-0.853-21.333-1.28-42.667-0.427-63.573 7.68-81.067 47.787-158.72 110.080-211.627 70.827-61.44 169.813-90.88 262.4-73.387 0.853 63.147-1.707 126.293-1.707 189.44-42.24-13.653-91.733-9.813-128.853 15.787-26.88 17.493-47.36 44.373-58.027 74.667-8.96 21.76-6.4 45.653-5.973 68.693 10.24 69.973 77.653 128.853 149.333 122.453 47.787-0.427 93.44-28.16 118.187-68.693 8.107-14.080 17.067-28.587 17.493-45.227 4.267-76.373 2.56-152.32 2.987-228.693 0.427-171.947-0.427-343.467 0.853-514.987z"></path>
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@nanaideco" target="_blank">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+            <g id="icomoon-ignore"></g>
+            <path fill="#692126" d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z"></path>
+            <path fill="#692126" d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z"></path>
+            <path fill="#692126" d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z"></path>
+          </svg>
+        </a>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
